@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Outlet
+#
+DEF Outlet P 0 40 Y Y 1 F P
+F0 "P" 0 400 60 H V C CNN
+F1 "Outlet" 0 300 60 H V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+DRAW
+A 0 -50 50 1 1799 0 1 0 N 50 -50 -50 -50
+A 0 -50 50 1 1799 0 1 0 N 50 -50 -50 -50
+C 0 50 200 0 1 0 N
+S -100 150 -50 0 0 1 0 N
+S -100 150 -50 0 0 1 0 N
+S 100 150 50 50 0 1 0 N
+S 100 150 50 50 0 1 0 N
+P 4 0 1 0 -50 -50 -50 -100 50 -100 50 -50 N
+P 4 0 1 0 -50 -50 -50 -100 50 -100 50 -50 N
+X Pos 1 -200 50 200 L 50 50 1 1 I
+X Pos 1 -200 50 200 L 50 50 1 1 I
+X Neg 2 200 50 200 R 50 50 1 1 I
+X Neg 2 200 50 200 R 50 50 1 1 I
+X Earth 3 0 -150 200 D 50 50 1 1 P
+X Earth 3 0 -150 200 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
